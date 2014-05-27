@@ -1,0 +1,185 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'supervisor' ]
+2 info using npm@1.4.3
+3 info using node@v0.11.12
+4 verbose cache add [ 'supervisor', null ]
+5 verbose cache add name=undefined spec="supervisor" args=["supervisor",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'supervisor',
+6 verbose parsed url   path: 'supervisor',
+6 verbose parsed url   href: 'supervisor' }
+7 silly lockFile 0f4d09e4-supervisor supervisor
+8 verbose lock supervisor /Users/marc.bluemner/.npm/0f4d09e4-supervisor.lock
+9 silly lockFile 0f4d09e4-supervisor supervisor
+10 silly lockFile 0f4d09e4-supervisor supervisor
+11 verbose addNamed [ 'supervisor', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile b28163ae-supervisor supervisor@
+14 verbose lock supervisor@ /Users/marc.bluemner/.npm/b28163ae-supervisor.lock
+15 silly addNameRange { name: 'supervisor', range: '*', hasData: false }
+16 verbose url raw supervisor
+17 verbose url resolving [ 'https://registry.npmjs.org/', './supervisor' ]
+18 verbose url resolved https://registry.npmjs.org/supervisor
+19 info trying registry request attempt 1 at 11:17:29
+20 verbose etag "3MGORKB5XRRRIBB0UFX5JM6P1"
+21 http GET https://registry.npmjs.org/supervisor
+22 http 304 https://registry.npmjs.org/supervisor
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Tue, 27 May 2014 09:17:29 GMT',
+23 silly registry.get     server: 'Apache',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'last-modified': 'Tue, 27 May 2014 09:17:29 GMT',
+23 silly registry.get     'cache-control': 'max-age=1',
+23 silly registry.get     etag: '"3MGORKB5XRRRIBB0UFX5JM6P1"',
+23 silly registry.get     'x-served-by': 'cache-lcy1126-LCY',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1401182249.384597,VS0,VE161',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'content-length': '0',
+23 silly registry.get     connection: 'close' } ]
+24 verbose etag supervisor from cache
+25 silly addNameRange number 2 { name: 'supervisor', range: '*', hasData: true }
+26 silly addNameRange versions [ 'supervisor',
+26 silly addNameRange   [ '0.0.4',
+26 silly addNameRange     '0.0.5',
+26 silly addNameRange     '0.0.6',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.3.3',
+26 silly addNameRange     '0.3.4',
+26 silly addNameRange     '0.3.5',
+26 silly addNameRange     '0.3.6',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.4.1',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.5.1',
+26 silly addNameRange     '0.5.2',
+26 silly addNameRange     '0.5.3',
+26 silly addNameRange     '0.5.4',
+26 silly addNameRange     '0.5.5',
+26 silly addNameRange     '0.5.6',
+26 silly addNameRange     '0.5.7',
+26 silly addNameRange     '0.6.0' ] ]
+27 verbose addNamed [ 'supervisor', '0.6.0' ]
+28 verbose addNamed [ '0.6.0', '0.6.0' ]
+29 silly lockFile 0362a428-supervisor-0-6-0 supervisor@0.6.0
+30 verbose lock supervisor@0.6.0 /Users/marc.bluemner/.npm/0362a428-supervisor-0-6-0.lock
+31 silly lockFile 0362a428-supervisor-0-6-0 supervisor@0.6.0
+32 silly lockFile 0362a428-supervisor-0-6-0 supervisor@0.6.0
+33 silly lockFile b28163ae-supervisor supervisor@
+34 silly lockFile b28163ae-supervisor supervisor@
+35 silly resolved [ { name: 'supervisor',
+35 silly resolved     version: '0.6.0',
+35 silly resolved     description: 'A supervisor program for running nodejs programs',
+35 silly resolved     author: { name: 'Isaac Z. Schlueter', email: 'i@izs.me' },
+35 silly resolved     contributors:
+35 silly resolved      [ [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object],
+35 silly resolved        [Object] ],
+35 silly resolved     repository:
+35 silly resolved      { type: 'git',
+35 silly resolved        url: 'git://github.com/isaacs/node-supervisor.git' },
+35 silly resolved     bugs: { url: 'https://github.com/isaacs/node-supervisor/issues' },
+35 silly resolved     homepage: 'https://github.com/isaacs/node-supervisor/',
+35 silly resolved     main: 'lib/supervisor.js',
+35 silly resolved     bin:
+35 silly resolved      { 'node-supervisor': 'lib/cli-wrapper.js',
+35 silly resolved        supervisor: 'lib/cli-wrapper.js' },
+35 silly resolved     engines: { node: '>=0.6.0' },
+35 silly resolved     preferGlobal: true,
+35 silly resolved     readme: '# node-supervisor\n\nA little supervisor script for nodejs. It runs your program, and\nwatches for code changes, so you can have hot-code reloading-ish\nbehavior, without worrying about memory leaks and making sure you\nclean up all the inter-module references, and without a whole new\n`require` system.\n\n## node-supervisor -?\n\n\n    Node Supervisor is used to restart programs when they crash.\n    It can also be used to restart programs when a *.js file changes.\n\n    Usage:\n      supervisor [options] <program>\n      supervisor [options] -- <program> [args ...]\n\n    Required:\n      <program>\n        The program to run.\n\n    Options:\n      -w|--watch <watchItems>\n        A comma-delimited list of folders or js files to watch for changes.\n        When a change to a js file occurs, reload the program\n        Default is \'.\'\n\n      -i|--ignore <ignoreItems>\n        A comma-delimited list of folders to ignore for changes.\n        No default\n\n      -p|--poll-interval <milliseconds>\n        How often to poll watched files for changes.\n        Defaults to Node default.\n\n      -e|--extensions <extensions>\n        A comma-delimited list of file extensions to watch for changes.\n        Used when --watch option includes folders\n        Default is \'node,js\'\n\n      -x|--exec <executable>\n        The executable that runs the specified program.\n        Default is \'node\'\n\n      --debug\n        Start node with --debug flag.\n\n      --debug-brk\n        Start node with --debug-brk flag.\n\n      --harmony\n        Start node with --harmony flag.\n\n      -n|--no-restart-on error|exit\n        Don\'t automatically restart the supervised program if it ends.\n        Supervisor will wait for a change in the source files.\n        If "error", an exit code of 0 will still restart.\n        If "exit", no restart regardless of exit code.\n\n      --force-watch\n        Use fs.watch instead of fs.watchFile.\n        This may be useful if you see a high cpu load on a windows machine.\n\n      -h|--help|-?\n        Display these usage instructions.\n\n      -q|--quiet\n        Suppress DEBUG messages\n\n    Examples:\n      supervisor myapp.js\n      supervisor myapp.coffee\n      supervisor -w scripts -e myext -x myrunner myapp\n      supervisor -w lib,server.js,config.js server.js\n      supervisor -- server.js -h host -p port\n\n\n## Simple Install\n\nJust run:\n\n    npm install supervisor -g\n\n## Fancy Install\n\nGet this code, and then do this:\n\n    npm link\n',
+35 silly resolved     readmeFilename: 'README.md',
+35 silly resolved     _id: 'supervisor@0.6.0',
+35 silly resolved     _shasum: 'c8b965be5ae31822685f176df1f178dd5d85c332',
+35 silly resolved     _from: 'supervisor@',
+35 silly resolved     _resolved: 'https://registry.npmjs.org/supervisor/-/supervisor-0.6.0.tgz' } ]
+36 info install supervisor@0.6.0 into /usr/local/lib
+37 info installOne supervisor@0.6.0
+38 info /usr/local/lib/node_modules/supervisor unbuild
+39 verbose tar unpack /Users/marc.bluemner/.npm/supervisor/0.6.0/package.tgz
+40 silly lockFile 108aea87-ocal-lib-node-modules-supervisor tar:///usr/local/lib/node_modules/supervisor
+41 verbose lock tar:///usr/local/lib/node_modules/supervisor /Users/marc.bluemner/.npm/108aea87-ocal-lib-node-modules-supervisor.lock
+42 silly lockFile 839e8615-npm-supervisor-0-6-0-package-tgz tar:///Users/marc.bluemner/.npm/supervisor/0.6.0/package.tgz
+43 verbose lock tar:///Users/marc.bluemner/.npm/supervisor/0.6.0/package.tgz /Users/marc.bluemner/.npm/839e8615-npm-supervisor-0-6-0-package-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm extractEntry LICENSE
+48 silly gunzTarPerm extractEntry lib/cli-wrapper.js
+49 silly gunzTarPerm extractEntry lib/supervisor.js
+50 silly lockFile 108aea87-ocal-lib-node-modules-supervisor tar:///usr/local/lib/node_modules/supervisor
+51 silly lockFile 108aea87-ocal-lib-node-modules-supervisor tar:///usr/local/lib/node_modules/supervisor
+52 silly lockFile 839e8615-npm-supervisor-0-6-0-package-tgz tar:///Users/marc.bluemner/.npm/supervisor/0.6.0/package.tgz
+53 silly lockFile 839e8615-npm-supervisor-0-6-0-package-tgz tar:///Users/marc.bluemner/.npm/supervisor/0.6.0/package.tgz
+54 info preinstall supervisor@0.6.0
+55 verbose readDependencies using package.json deps
+56 verbose readDependencies using package.json deps
+57 silly resolved []
+58 verbose about to build /usr/local/lib/node_modules/supervisor
+59 info build /usr/local/lib/node_modules/supervisor
+60 verbose linkStuff [ true,
+60 verbose linkStuff   '/usr/local/lib/node_modules',
+60 verbose linkStuff   true,
+60 verbose linkStuff   '/usr/local/lib/node_modules' ]
+61 info linkStuff supervisor@0.6.0
+62 verbose linkBins supervisor@0.6.0
+63 verbose link bins [ { 'node-supervisor': 'lib/cli-wrapper.js',
+63 verbose link bins     supervisor: 'lib/cli-wrapper.js' },
+63 verbose link bins   '/usr/local/bin',
+63 verbose link bins   true ]
+64 verbose linkMans supervisor@0.6.0
+65 verbose rebuildBundles supervisor@0.6.0
+66 info install supervisor@0.6.0
+67 info postinstall supervisor@0.6.0
+68 error peerinvalid The package generator-karma does not satisfy its siblings' peerDependencies requirements!
+68 error peerinvalid Peer generator-angular@0.8.0 wants generator-karma@>=0.6.0
+68 error peerinvalid Peer generator-angular-silex@0.1.2 wants generator-karma@~0.2.0
+69 error System Darwin 13.1.0
+70 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "supervisor"
+71 error cwd /Users/marc.bluemner/workspace/coffee/todo
+72 error node -v v0.11.12
+73 error npm -v 1.4.3
+74 error code EPEERINVALID
+75 verbose exit [ 1, true ]
